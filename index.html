@@ -28,162 +28,186 @@
         </nav>
     </header>
     <main>
-        <section class="max-w-10/12 mx-auto bg-orange-50 p-4 rounded-lg">
+        <section class="max-w-10/12 mx-auto bg-orange-50 p-4 rounded-lg grid grid-cols-3 gap-5">
             <!-- father div -->
-            <div class="grid grid-cols-4 gap-5 ">
+            <!-- <div class="grid grid-cols-4 gap-5 "> -->
                 <!-- child div -->
-             
-                <div class="flex items-center bg-slate-100   rounded lg:p-10">
-                    <div class="w-20 h-20 bg-white rounded-full inline-flex justify-center items-center mx-auto">
-                        <img class="w-5" src="assets/checkbox.png" alt="">
-                    </div>
-                   <div>
-                    <p  class="font-normal">Task Assigned</p>
-                    <p id ="task" class="font-bold text-2xl">05</p>
-                   </div> 
+             <div class="grid grid-cols-4 gap-4 col-span-2">
+              <div class="flex items-center bg-slate-100   rounded lg:p-10">
+                <div class="w-20 h-20 bg-white rounded-full inline-flex justify-center items-center mx-auto">
+                    <img class="w-5" src="assets/checkbox.png" alt="">
                 </div>
-                <!-- second child -->
-                <div class="flex gap-10 items-center bg lg:p-10 rounded col-span-2">
-                    <div>
-                        <img src="assets/board.png" alt="">
-                    </div>
-                   <div>
-                    <p class="font-normal text-white text-2xl">Discover Something <br> New Today!</p>
-                   </div> 
+               <div>
+                <p  class="font-normal">Task Assigned</p>
+                <p id ="task" class="font-bold text-2xl">05</p>
+               </div> 
+            </div>
+            <!-- second child -->
+            <div class="flex gap-10 items-center bg lg:p-10 rounded col-span-2">
+                <div>
+                    <img src="assets/board.png" alt="">
                 </div>
-                <!-- 3rd child -->
-                <div class="flex lg:p-10 items-center bg-slate-100 rounded">
-                    <div class="w-20 h-20 bg-white rounded-full inline-flex justify-center items-center mx-auto">
-                        <img class="w-5" src="assets/calender.png" alt="">
-                    </div>
-                   <div>
-                    <p class="font-normal">Task Assigned</p>
-                    <p class="font-bold text-2xl">05</p>
-                   </div> 
+               <div>
+                <p class="font-normal text-white text-2xl">Discover Something <br> New Today!</p>
+               </div> 
+            </div>
+            <!-- 3rd child -->
+            <div class="flex lg:p-10 items-center bg-slate-100 rounded">
+                <div class="w-20 h-20 bg-white rounded-full inline-flex justify-center items-center mx-auto">
+                    <img class="w-5" src="assets/calender.png" alt="">
                 </div>
+               <div>
+                <p class="font-normal">Task Assigned</p>
+                <p class="font-bold text-2xl">05</p>
+               </div> 
+            </div>
+             </div>
+
+<!-- active log -->
+
+             <section class=" grid row-span-2">
+              <div id="history" class="bg-slate-100 text-center space-y-4 pt-5">
+                <div class="flex items-center justify-center gap-2">
+                    <img src="assets/activity.png" alt="">
+                    <h3 class="text-2xl font-medium">Activity Log</h3>
+                </div>
+                <div id="">
+
+                </div>
+                <button id="btn-clear" class="bg text-white p-3 rounded font-medium">Clear history</button>
+             </div>
+
+
+             </section>
+
+              
+<!-- activelog -->
+             <section class="grid grid-cols-3 gap-5 col-span-2">
+
+
+              <div class="space-y-2 bg-[#f4f7ff] p-3">
+                <div class="p-2 bg-white font-normal">
+                  <h3>ShopEase</h3>
+                </div>
+                <h1 class="text-2xl text-[#00303C] font-bold">Fix Mobile Button Issue </h1>
+                <div class="bg-white p-10">
+                  <p class="font-light">Debug using Chrome DevTools, check for overlapping</p>
+                </div>
+                <div class="flex justify-between items-center">
+                  <div>
+                      <h3>Deadline</h3>
+                      <p class="font-light">21 March 2025</p>
+                  </div>
+                  <button id="btn-1" class="btn btn-neutral bg-blue-800 btn-1 ">Completed</button>
+                </div>
+            </div>
+            <!-- 6th child -->
+            <div class="space-y-2 bg-[#f4f7ff] p-3">
+              <div class="p-2 bg-white font-normal">
+                <h3>ShopEase</h3>
+              </div>
+              <h1 class="text-2xl text-[#00303C] font-bold">Fix Mobile Button Issue </h1>
+              <div class="bg-white p-10">
+                <p class="font-light">Debug using Chrome DevTools, check for overlapping</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <div>
+                    <h3>Deadline</h3>
+                    <p class="font-light">21 March 2025</p>
+                </div>
+                <button id="btn-2" class="btn btn-neutral bg-blue-700
+                button">Completed</button>
+              </div>
+          </div>
+
+          <!-- 7th child -->
+          <div class="space-y-2 bg-[#f4f7ff] p-3">
+              <div class="p-2 bg-white font-normal">
+                <h3>ShopEase</h3>
+              </div>
+              <h1 class="text-2xl text-[#00303C] font-bold">Fix Mobile Button Issue </h1>
+              <div class="bg-white p-10">
+                <p class="font-light">Debug using Chrome DevTools, check for overlapping</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <div>
+                    <h3>Deadline</h3>
+                    <p class="font-light">21 March 2025</p>
+                </div>
+                <button id="btn-3" class="btn btn-1 btn-neutral bg-blue-800 button">Completed</button>
+              </div>
+          </div>
+
+      
+          <!-- 8th child -->
+          <div class="space-y-2 bg-[#f4f7ff] p-3">
+              <div class="p-2 bg-white font-normal">
+                <h3>ShopEase</h3>
+              </div>
+              <h1 class="text-2xl text-[#00303C] font-bold">Fix Mobile Button Issue </h1>
+              <div class="bg-white p-10">
+                <p class="font-light">Debug using Chrome DevTools, check for overlapping</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <div>
+                    <h3>Deadline</h3>
+                    <p class="font-light">21 March 2025</p>
+                </div>
+                <button id="btn-4" class="btn btn-1 btn-neutral bg-blue-800">Completed</button>
+              </div>
+          </div>
+          <!-- 9th child -->
+          <div class="space-y-2 bg-[#f4f7ff] p-3">
+              <div class="p-2 bg-white font-normal">
+                <h3>ShopEase</h3>
+              </div>
+              <h1 class="text-2xl text-[#00303C] font-bold">Fix Mobile Button Issue </h1>
+              <div class="bg-white p-10">
+                <p class="font-light">Debug using Chrome DevTools, check for overlapping</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <div>
+                    <h3>Deadline</h3>
+                    <p class="font-light">21 March 2025</p>
+                </div>
+                <button id="btn-5" class="btn btn-1 btn-neutral bg-blue-800">Completed</button>
+              </div>
+          </div>
+          <!-- 10th child -->
+          <div class="space-y-2 bg-[#f4f7ff] p-3">
+            <div class="p-2 bg-white font-normal">
+              <h3>ShopEase</h3>
+            </div>
+            <h1 class="text-2xl text-[#00303C] font-bold">Fix Mobile Button Issue </h1>
+            <div class="bg-white p-10">
+              <p class="font-light">Debug using Chrome DevTools, check for overlapping</p>
+            </div>
+            <div class="flex justify-between items-center">
+              <div>
+                  <h3>Deadline</h3>
+                  <p class="font-light">21 March 2025</p>
+              </div>
+              <button id="btn-6" class="btn btn-neutral bg-blue-800">Completed</button>
+            </div>
+        </div>
+             </section>
+
+
+
+
+
+
                 <!-- forth child --> 
                
               <!-- </div>    -->
                  <!-- fifth-child -->
                  
-                  <div class="space-y-2 bg-[#f4f7ff] p-3">
-                      <div class="p-2 bg-white font-normal">
-                        <h3>ShopEase</h3>
-                      </div>
-                      <h1 class="text-2xl text-[#00303C] font-bold">Fix Mobile Button Issue </h1>
-                      <div class="bg-white p-10">
-                        <p class="font-light">Debug using Chrome DevTools, check for overlapping</p>
-                      </div>
-                      <div class="flex justify-between items-center">
-                        <div>
-                            <h3>Deadline</h3>
-                            <p class="font-light">21 March 2025</p>
-                        </div>
-                        <button id="btn-1" class="btn btn-neutral bg-blue-800 btn-1 ">Completed</button>
-                      </div>
-                  </div>
-                  <!-- 6th child -->
-                  <div class="space-y-2 bg-[#f4f7ff] p-3">
-                    <div class="p-2 bg-white font-normal">
-                      <h3>ShopEase</h3>
-                    </div>
-                    <h1 class="text-2xl text-[#00303C] font-bold">Fix Mobile Button Issue </h1>
-                    <div class="bg-white p-10">
-                      <p class="font-light">Debug using Chrome DevTools, check for overlapping</p>
-                    </div>
-                    <div class="flex justify-between items-center">
-                      <div>
-                          <h3>Deadline</h3>
-                          <p class="font-light">21 March 2025</p>
-                      </div>
-                      <button id="btn-2" class="btn btn-neutral bg-blue-700
-                      button">Completed</button>
-                    </div>
-                </div>
-
-                <!-- 7th child -->
-                <div class="space-y-2 bg-[#f4f7ff] p-3">
-                    <div class="p-2 bg-white font-normal">
-                      <h3>ShopEase</h3>
-                    </div>
-                    <h1 class="text-2xl text-[#00303C] font-bold">Fix Mobile Button Issue </h1>
-                    <div class="bg-white p-10">
-                      <p class="font-light">Debug using Chrome DevTools, check for overlapping</p>
-                    </div>
-                    <div class="flex justify-between items-center">
-                      <div>
-                          <h3>Deadline</h3>
-                          <p class="font-light">21 March 2025</p>
-                      </div>
-                      <button id="btn-3" class="btn btn-1 btn-neutral bg-blue-800 button">Completed</button>
-                    </div>
-                </div>
-
-                <div id="history" class="bg-slate-100 text-center row-span-3 space-y-4 pt-5">
-                  <div class="flex items-center justify-center gap-2">
-                      <img src="assets/activity.png" alt="">
-                      <h3 class="text-2xl font-medium">Activity Log</h3>
-                  </div>
-                  <div id="">
-
-                  </div>
-                  <button id="btn-clear" class="bg text-white p-3 rounded font-medium">Clear history</button>
-               </div>
-                <!-- 8th child -->
-                <div class="space-y-2 bg-[#f4f7ff] p-3">
-                    <div class="p-2 bg-white font-normal">
-                      <h3>ShopEase</h3>
-                    </div>
-                    <h1 class="text-2xl text-[#00303C] font-bold">Fix Mobile Button Issue </h1>
-                    <div class="bg-white p-10">
-                      <p class="font-light">Debug using Chrome DevTools, check for overlapping</p>
-                    </div>
-                    <div class="flex justify-between items-center">
-                      <div>
-                          <h3>Deadline</h3>
-                          <p class="font-light">21 March 2025</p>
-                      </div>
-                      <button id="btn-4" class="btn btn-1 btn-neutral bg-blue-800">Completed</button>
-                    </div>
-                </div>
-                <!-- 9th child -->
-                <div class="space-y-2 bg-[#f4f7ff] p-3">
-                    <div class="p-2 bg-white font-normal">
-                      <h3>ShopEase</h3>
-                    </div>
-                    <h1 class="text-2xl text-[#00303C] font-bold">Fix Mobile Button Issue </h1>
-                    <div class="bg-white p-10">
-                      <p class="font-light">Debug using Chrome DevTools, check for overlapping</p>
-                    </div>
-                    <div class="flex justify-between items-center">
-                      <div>
-                          <h3>Deadline</h3>
-                          <p class="font-light">21 March 2025</p>
-                      </div>
-                      <button id="btn-5" class="btn btn-1 btn-neutral bg-blue-800">Completed</button>
-                    </div>
-                </div>
-                <!-- 10th child -->
-                <div class="space-y-2 bg-[#f4f7ff] p-3">
-                  <div class="p-2 bg-white font-normal">
-                    <h3>ShopEase</h3>
-                  </div>
-                  <h1 class="text-2xl text-[#00303C] font-bold">Fix Mobile Button Issue </h1>
-                  <div class="bg-white p-10">
-                    <p class="font-light">Debug using Chrome DevTools, check for overlapping</p>
-                  </div>
-                  <div class="flex justify-between items-center">
-                    <div>
-                        <h3>Deadline</h3>
-                        <p class="font-light">21 March 2025</p>
-                    </div>
-                    <button id="btn-6" class="btn btn-neutral bg-blue-800">Completed</button>
-                  </div>
-              </div>
+                
                 <!-- 11th child -->
             
                 <!-- 12th child -->
                   
+               
             </div>
         </section>
     </main>
