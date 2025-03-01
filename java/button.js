@@ -13,8 +13,10 @@ document.getElementById("btn-1")
     const container = document
     .getElementById("history");
     const div = document.createElement("div");
+    div.classList.add("font-bold")
     div.innerHTML = `
-    <p>Rakib</>
+    <p>You have completed the task Fix Mobile Button Issue
+</p>
     `
     container.appendChild(div);
     
@@ -44,8 +46,10 @@ document.getElementById("btn-2")
     const container = document
     .getElementById("history");
     const div = document.createElement("div");
+    div.classList.add("font-bold")
     div.innerHTML = `
-    <p>Rakib</>
+     <p>You have completed the task Add Dark Mode
+</p>
     `
     container.appendChild(div);
 
@@ -77,8 +81,11 @@ document.getElementById("btn-3")
     const container = document
     .getElementById("history");
     const div = document.createElement("div");
+    div.classList.add("font-bold")
     div.innerHTML = `
-    <p>Rakib</>
+      <p>You have completed the task Optimize Home page
+
+</p>
     `
     container.appendChild(div);
 
@@ -109,8 +116,11 @@ document.getElementById("btn-4")
     const container = document
     .getElementById("history");
     const div = document.createElement("div");
+    div.classList.add("font-bold")
     div.innerHTML = `
-    <p>Rakib</>
+       <p>You have completed the task Add new emoji 🤲
+
+</p>
     `
     container.appendChild(div);
 
@@ -143,7 +153,8 @@ document.getElementById("btn-5")
     const div = document.createElement("div");
     div.classList.add("font-bold")
     div.innerHTML = `
-     <p>You have completed the task Fix Mobile Button Issue </>
+     <p>You have completed the task Integrate OpenAI API
+</>
     `
     container.appendChild(div);
     document.getElementById("btn-clear")
@@ -175,7 +186,8 @@ document.getElementById("btn-6")
     const div = document.createElement("div");
     div.classList.add("font-bold")
     div.innerHTML = `
-    <p>You have completed the task Fix Mobile Button Issue </>
+    <p>You have completed the task Improve Job searching
+ </p>
     `
     container.appendChild(div);
     
