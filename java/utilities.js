@@ -1,8 +1,4 @@
-function getInputValueByID (id){
-    const value = document.getElementById(id).value;
-   const convertedValue = parseFloat(value);
-    return convertedValue;
-}
+
 
 function getInnerTextByID (id){
     const value = document.getElementById(id).innerText;
@@ -17,6 +13,10 @@ function setInnerTextByIDandValue (id,value){
 
 
 }
-function handleToogle(id,status){
-    document.getElementById(id).style.display = status;
+
+function setCurrentTime (id){
+    let now = new date ();
+    let timeString = now.toLocalTimeString ();
+
+    console.log(timeString)
 }

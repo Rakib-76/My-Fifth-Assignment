@@ -9,14 +9,16 @@ document.getElementById("btn-1")
     setInnerTextByIDandValue("main",result1);
     const button = document.getElementById("btn-1");
     button.disabled = true;
+    
+
 
     const container = document
     .getElementById("history");
     const div = document.createElement("div");
     div.classList.add("font-bold")
-    div.innerHTML = `
+    div.innerHTML= `
     <p>You have completed the task Fix Mobile Button Issue
-</p>
+</p> 
     `
     container.appendChild(div);
     
@@ -155,6 +157,7 @@ document.getElementById("btn-5")
     div.innerHTML = `
      <p>You have completed the task Integrate OpenAI API
 </>
+
     `
     container.appendChild(div);
     document.getElementById("btn-clear")
@@ -176,10 +179,9 @@ document.getElementById("btn-6")
     const main = getInnerTextByID("main");
     const result1 = main + 1;
     setInnerTextByIDandValue("main",result1);
+
     const button = document.getElementById("btn-6");
     button.disabled = true;
-
-
 
     const container = document
     .getElementById("history");
@@ -188,8 +190,11 @@ document.getElementById("btn-6")
     div.innerHTML = `
     <p>You have completed the task Improve Job searching
  </p>
+
     `
+    // const time = setCurrentTime("current-time")
     container.appendChild(div);
+
     
     document.getElementById("btn-clear")
     .addEventListener("click",function(){
@@ -198,15 +203,9 @@ document.getElementById("btn-6")
         
     })
 
+  
 })
 
 
 
-document.getElementById("btn-clear")
-.addEventListener("click",function(){
-    // const div = document.createElement("div");
-    div.innerHTML = " ";
-
-    
-})
 
