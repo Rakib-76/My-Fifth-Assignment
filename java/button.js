@@ -202,9 +202,14 @@ document.getElementById("btn-6")
     
         
     })
+    if(result === 0){
+        alert("successfully you have complete the all task")
+    }
+    
 
   
 })
+
 
 
 

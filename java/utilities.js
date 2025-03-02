@@ -14,7 +14,7 @@ function setInnerTextByIDandValue (id,value){
 
 }
 
-function setCurrentTime (id){
+function setCurrentTime (){
     let now = new date ();
     let timeString = now.toLocalTimeString ();
 
